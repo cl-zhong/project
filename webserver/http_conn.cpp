@@ -13,7 +13,7 @@ const char* error_500_form = "There was an unusual problem serving the requested
 
 // 网站的根目录
 const char* doc_root = "/home/zhong/project/webserver/resources";
-//访问 http://192.168.5.130:8000/index.html
+//访问 http://192.168.5.132:8000/index.html
 
 int setnonblocking( int fd ) {
     int old_option = fcntl( fd, F_GETFL );
